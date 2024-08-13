@@ -1,0 +1,66 @@
+
+[
+    {
+        "rol": "mesa-de-control",
+        "permisos": []
+    },
+    {
+        "rol": "configuración",
+        "permisos": [
+            "registro-de-clientes",
+            "registro-de-unidades",
+            "registro-de-aseguradoras",
+            "registro-de-agencias-o-talleres",
+            "gps",
+            "garantias-flising",
+            "registro-de-usuarios"
+        ]
+    },
+    {
+        "rol": "funciones",
+        "permisos": [
+            "verificación",
+            "mantenimiento",
+            "mantenimiento-validacion-de-pagos",
+            "siniestros",
+            "emergencias"
+        ]
+    },
+    {
+        "rol": "administración",
+        "permisos": [
+            "asignación-de-unidades",
+            "autorizacion-de-mantenimientos",
+            "a-emergencias",
+            "a-garantias-flising",
+            "supervisión",
+            "tenencia",
+            "seguro"
+        ]
+    },
+    {
+        "rol": "estadisticas",
+        "permisos": [
+            "informe-tenencias",
+            "informe-verificaciones",
+            "informe-seguros",
+            "informe-mantenimientos",
+            "informe-administrativo",
+            "informe-de-egresos"
+        ]
+    },
+    {
+        "rol": "visor-cartográfico",
+        "permisos": []
+    },
+    {
+        "rol": "tutoriales",
+        "permisos": [
+            "configuración",
+            "funciones",
+            "administración",
+            "estadisticas",
+            "visor-cartográfico"
+        ]
+    }
+]

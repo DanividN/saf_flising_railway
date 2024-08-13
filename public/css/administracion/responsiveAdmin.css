@@ -1,0 +1,109 @@
+/* Media query para pantallas pequeñas (375px a 414px) */
+@media (min-width: 375px) and (max-width: 414px) {
+    .input-archivo {
+        width: 100% !important;
+        height: 35px !important;
+        font-size: 14px !important;
+    }
+
+    .bg-danger {
+        --bs-bg-opacity: 1;
+        background-color: #0d6efd !important;
+        width: 70px !important;
+    }
+
+    .badge {
+        width: 73px !important;
+    }
+
+    #table_filter input {
+        width: 100%; /* Ajustado a 100% para mejor ajuste en pantallas pequeñas */
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .bg-blue-status, .bg-green-status, .bg-yellow-status, .bg-red-status {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    .btn-informe-orange, .btn-orange {
+        width: 200px !important;
+        height: 40px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-control {
+        border: solid 1px rgb(198, 198, 209) !important;
+        width: 100%; /* Ajustado a 100% para mejor ajuste en pantallas pequeñas */
+    }
+}
+
+/* Media query para pantallas de hasta 767px */
+@media (max-width: 767px) {
+    #btn-pantcomp,
+    #btn-phonepantallacomp,
+    #btn-infor-pantcomplet,
+    #btn-agregarcitpantComp {
+        visibility: hidden;
+        position: absolute;
+        left: -9999px; /* Mover fuera del área visible */
+    }
+
+    #btn-responsive,
+    #btn-phonepantrespons,
+    #btn-infor-responsive,
+    #btn-agregarResponsive {
+        display: inline-block;
+        width: 43px !important;
+        height: 43px !important;
+        border-radius: 9px !important;
+        /* Añadir otros estilos necesarios */
+    }
+
+    .titulo-pantcomp {
+        display: none;
+    }
+
+    .titulo-responsive {
+        display: inline-block;
+    }
+}
+
+/* Media query para pantallas de 768px y más */
+@media (min-width: 768px) {
+    #btn-pantcomp,
+    #btn-phonepantallacomp,
+    #btn-infor-pantcomplet,
+    #btn-agregarcitpantComp {
+        visibility: visible;
+        position: static;
+        left: auto;
+    }
+
+    #btn-responsive,
+    #btn-phonepantrespons,
+    #btn-infor-responsive,
+    #btn-agregarResponsive {
+        display: none;
+    }
+
+    .titulo-pantcomp {
+        display: inline-block;
+    }
+
+    .titulo-responsive {
+        display: none;
+    }
+}
+
+
+/* Activar el Scroll para dispositivos mas pequeños como celulares o ipads */
+@media (max-width: 768px) {
+    .container-fluid {
+      width: 100%; /* Ajusta el ancho para pantallas pequeñas */
+      overflow-x: auto; /* Permite el scroll horizontal si el contenido se desborda */
+    }
+  }
+  

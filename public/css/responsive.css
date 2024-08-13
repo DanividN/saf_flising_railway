@@ -1,0 +1,186 @@
+@media (max-width: 915.98px) { 
+     .notification{
+        width: 18px !important;
+    }
+    
+.sb-topnav{
+    position: fixed !important;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1039;
+    width: 100% !important;
+}
+
+   .navbar{
+        /* background-color: #fe0c0c !important; */
+        /* margin-left: 0px !important; */
+        /* margin-top: 0px !important; */
+        position:static !important; 
+        height: 50px;
+        /* width: 572px !important; */
+    }
+
+   .bread{
+        display: none !important;
+    }
+    .badge{
+        width: 15px !important;
+    } 
+    .navbar ul{
+        width: 8px;
+    }
+     .navbar-nav label, .not{
+        display: none !important;
+    }
+    .icons_header img{
+        filter: invert(0.9);
+    }
+    .sb-topnav{
+    margin-right: 10px;
+    }
+    .noti-mtto{
+        width: 25px;
+    }
+    .n-responsive{
+        width: 8px !important;
+        height: 8px !important;
+    } 
+    .menuu{
+        color:black !important;
+        margin-left: 5px !important;
+        margin-top: -5px !important;
+        position: absolute !important;
+    }
+    .img-flising{
+        display: none !important;
+    }
+    .bg-color{
+        /* margin-left: 5px; */
+        background-color: #fff !important;
+        border-right: none;
+        width: 225px !important;
+        border-color: transparent !important;
+        height: 100vh;
+        }
+    .icons_header{
+        height: 35px !important;
+        /* width: 150px !important; */
+    }
+   .navbar-nav img{
+        margin-left: -10px !important;
+        justify-content: start !important;
+   }
+   .text-menu, .link-rp{
+    display: block !important;
+   }
+   .icon-wb{
+    display: none !important;
+   }
+   .img-logo{
+    display: none !important;
+   }
+   #layoutSidenav_nav{
+    margin-top: -80px !important;
+    position:absolute !important;
+    height: 115vh !important;
+    overflow: auto;
+    width: 225px !important;
+   }
+   /* #layoutSidenav_content{
+    margin-top: -40px !important;
+    width: 450px;
+  } */
+   .user img{
+        width: 25px !important;
+        margin-left: -22px !important;
+        margin-top: -5px;
+        justify-content: right;
+   }
+   .logo_res{
+    display: block !important;
+   }
+ 
+   .mcd-menu {
+    background-color: #ffffff !important;
+    padding-bottom: 80px !important;
+    width: 225px;
+   }
+   /* .activ ul{
+    overflow: auto !important;
+
+   } */
+   .campana li {
+        margin-left:130px !important;
+   }
+   .logo_res li{
+    margin-left: 45px !important;
+    
+   }
+   .sb-topnav{
+    position: fixed !important;
+    z-index: 1 !important;
+ }
+
+ #layoutSidenav_nav{
+    position: fixed !important;
+ }
+ .bg-color{
+    position:absolute !important;
+ }
+
+ }
+ @media (max-width:450px){
+    .header-style{
+        height: 30px !important;
+        border-radius: 5px 5px 0 0 !important;
+    }
+    .noti-garantias{
+        margin-left: 55px !important;
+        margin-top: -50px !important;
+        font-size:  17px !important;
+        color:#707070;
+        font-family: 'Lato-regular';
+    }
+    .noti-tenencias{
+        margin-left: 55px;
+        margin-top: -35px;
+    }
+    .noti-mtto{
+        margin-left: 65px !important;
+        margin-top: -50px !important;
+    }
+    .noti-seguros{
+        margin-left: 65px;
+        margin-top: -60px;
+    }
+    .body-style{
+        background-color: #fff !important;
+        border-radius: 0 0 5px 5px !important;
+        height: 105px;
+    }
+    .text-noti{
+        font-size:  17px !important;
+        color:#707070;
+        font-family: 'Lato-regular';
+    }
+    .date-style{
+        font-size: 15px;
+        color: #A7A7A7;
+        font-family: 'Lato-regular';
+    }
+    /* .notificaciones{
+        position: absolute !important;
+    } */
+     .accordion-header-color{
+        color: white !important;
+     }
+  
+ }
+ @media(max-width: 365px){
+        .text-noti{
+            font-size: 15px !important;
+        }    
+ }
+ 

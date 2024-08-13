@@ -1,0 +1,223 @@
+@media (max-width:915.98px){
+
+  ul, li
+  {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* font-size: 100%; */
+  /* font: inherit; */
+  vertical-align: baseline
+}
+ol, ul { 
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none !important;
+ }
+
+.nav a, .nav label {
+  display: block;
+  padding: .85rem;
+  color: #000;
+  font-size: 15px;
+
+}
+.nav p{
+  margin-left: 40px;
+  text-align: left;
+}
+
+.nav label{
+  height: 50px !important;
+  width: 200px !important;
+  margin-left: 15px !important;
+}
+
+
+.nav a:focus, .nav-s a:hover, .nav label:focus, .nav label:hover{
+  color: #fff;
+  background: #ED5429;
+  border-radius: 10px !important;
+}
+.link-rp a:focus img{
+  filter: hue-rotate(60deg) brightness(500%);
+}
+
+
+
+ .nav label:hover img, .link-rp a:hover img{
+  filter: hue-rotate(60deg) brightness(500%);
+}
+
+
+.nav label { cursor: pointer; }
+
+/**
+ * Styling first level lists items
+ */
+
+/* .sub-menu a, .sub-menu label {
+  padding-left: 2rem;
+  background: #000000;
+} */
+
+.sub-menu a:focus, .sub-menu a:hover, 
+.sub-menu label:focus, .sub-menu label:hover { 
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+  width: 178px;
+  /* height: 45px; */
+ }
+
+.sub-menu{
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .5s ease-in-out;
+  transition: max-height .5s ease-in-out;
+  margin-left: 27px !important;
+  /* background-color: red; */
+  width: 180px !important;
+  margin-top: 5px;
+}
+
+.mcd-menu input[type=checkbox]:checked + label + ul {
+   /* reset the height when checkbox is checked */
+    max-height: 700px;
+ }
+
+/**
+ * Rotating chevron icon
+ */
+
+label > i {
+  float: right;
+  -webkit-transition: -webkit-transform .65s ease;
+  transition: transform .65s ease;
+}
+
+.mcd-menu input[type=checkbox]:checked + label > i {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.mcd-menu input[type=checkbox]:checked + label{
+  background-color: #ED5429 !important;
+  color: #fff;
+  border-radius: 10px;
+}
+.mcd-menu input[type=checkbox]:checked + label > span img{
+  filter: hue-rotate(60deg) brightness(500%);
+}
+
+.img-hd{
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.hr{
+  width: 88% !important;
+  margin-left: 10px !important 
+}
+.img-menu img{
+  margin-left: -130px !important;
+  width: 25px;
+  height: 25px;
+  margin-top: -90px !important;
+  
+}
+
+.sub-menu li img{
+  width: 20px;
+  height: 20px;
+  margin-left: -10 px !important;
+}
+.sub-menu li{
+  margin-left:-30px;
+}
+  .sb-mn img{
+    margin-left: -1px !important;
+}
+.sub-menu li:hover img{
+  filter: hue-rotate(60deg) brightness(500%);
+}
+.sub-menu a > span{
+    font-size: 11px !important;
+}
+.notification{
+  display: none !important;
+}
+.informe{
+  overflow: auto !important;
+}
+/* .sb-mn{
+  margin-left: -10px;
+} */
+.sub-menu a{
+  text-align: left !important;
+}
+.sub-menu a span{
+  margin-left: 1px !important;
+}
+
+.aseguradora img{
+  height: 25px !important;
+ 
+}
+.campana{
+  margin-left:38vh !important;
+  margin-top: 2px !important;
+  width: 100px !important;
+}
+
+.user img{
+  width: 25px;
+}
+.user{
+  margin-left: -25px !important;
+}
+.logo_res{
+  display: block !important;
+}
+.bi-x{
+  margin-left: 200px !important;
+  margin-top:-2px !important;
+  position: fixed !important;
+  
+}
+.bi-x:hover{
+  color:#ED5429;
+  /* margin-left: 150px !important; */
+}
+ 
+/* .mcd-menu{
+  height: 100vh;
+  overflow-y: scroll !important;
+} */
+
+  .sub-menu{
+    padding-bottom: 1px;
+  }
+
+  
+  
+  .link-rp a{
+      margin-top: -14px;
+      width: 200px;
+      margin-left:-15px !important;
+      height: 50px;
+  }
+  .link-rp p{
+    margin-left: 40px;
+  }
+  .link-rp:hover p{
+    color: #fff !important;
+  }
+
+
+}
+
+
+  /*  */

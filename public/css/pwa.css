@@ -1,0 +1,143 @@
+
+.no-arrow::after {
+    display: none;
+}
+.notification-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.notification-number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px; /* Ajusta el tamaño según sea necesario */
+    height: 16px; /* Ajusta el tamaño según sea necesario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ed5429; 
+    border-radius: 50%; 
+    border: 2px solid white; 
+    color: white;
+    font-size: 10px; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-weight: bold;
+}
+
+.body {
+    background-color: #DAD3D1 !important;
+}
+.btn-orange {
+    background-color: #ed5429 !important;
+    color: white !important;
+    border-radius: 12px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    /* width: 226px !important;
+    height:40px !important; */
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    align-items: center; 
+    
+}
+.btn-orange:hover {
+    background-color: #e24e24 !important;
+    color: white !important;
+    
+}
+.text-orange {
+    color: #ed5429 !important;
+}
+.font-bold {
+    font-weight: 700;
+}
+.text-gray {
+    color: #a7a7a7 !important;
+}
+
+.form-check-input {
+    display: none;
+}
+.checkbox-custom {
+    display: inline-block;
+    width: 18px; 
+    height: 18px; 
+    background-color: #fff; 
+    border: 2px solid #c2c2c2; 
+    border-radius: 4px; 
+    cursor: pointer;
+    position: relative; 
+    transform: scale(1.5); 
+}
+.form-check-input:checked + .checkbox-custom {
+    background-color: #e24e24; 
+    border-color: #e24e24; 
+}
+.form-check-input:checked + .checkbox-custom::after {
+    font-weight: 700;
+    content: '\2713'; 
+    color: #fff; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1.5); 
+    font-size: 10px; 
+}
+.pill-btn {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    padding: 0; 
+    border: 2px solid #e24e24;
+}
+.nav-item .nav-link.pill-btn {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    padding: 0; 
+    border: 2px solid #757575;
+    background-color: transparent; 
+    color: transparent; 
+    display: inline-block; 
+    text-align: center; 
+    line-height: 20px; 
+}
+.nav-item .nav-link.pill-btn.active {
+    background-color: #757575; 
+    color: #fff; 
+}
+.bg-blue-status {
+    background-color: #5392ef !important;
+}
+.text-blue-status {
+    color: #5392ef !important;
+}
+.bg-yellow-status {
+    background-color: #ffd657 !important;
+}
+.text-yellow-status {
+    color: #ffd657 !important;
+}
+.bg-yellow-900-status {
+    background-color: #ffbf00 !important;
+}
+.text-yellow-900-status {
+    color: #ffbf00 !important;
+}
+.bg-green-status {
+    background-color: #5cce65 !important;
+}
+.text-green-status {
+    color: #5cce65 !important;
+}
+.bg-red-status {
+    background-color: #ed494b !important;
+}
+.text-red-status {
+    color: #ed494b !important;
+}
+.text-gray {
+    color: #757575 !important;
+}
+.font-semibold {
+    font-weight: 600;
+}
